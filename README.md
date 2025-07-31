@@ -17,6 +17,8 @@ A scalable and modular FastAPI project to manage organizations dynamically. Each
 ---
 
 ## Project Structure
+<pre lang="md"> 
+```
 NAVA
 ├── src/
 |   ├── api/
@@ -31,6 +33,7 @@ NAVA
 ├── deployments
 |       └── DockerFile
 └── README.md
+``` </pre>
 
 
 
@@ -41,7 +44,7 @@ NAVA
 
 ```
 git clone <your-repo>
-cd organization_service
+cd NAVA
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
