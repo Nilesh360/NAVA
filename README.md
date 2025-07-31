@@ -48,12 +48,13 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-2. Access Documentation
+## Access Documentation
 Swagger: http://127.0.0.1:8000/docs
 
-3. Command to run locally
+## Command to run locally
+```
 uvicorn src.app:app --reload --port 8000
-
+```
 
 
 ## 🧑‍💻 Author
