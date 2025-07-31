@@ -49,8 +49,10 @@ uvicorn app.main:app --reload
 ```
 
 2. Access Documentation
-Swagger: http://localhost:8000/api/docs
+Swagger: http://127.0.0.1:8000/docs
 
+3. Command to run locally
+uvicorn src.app:app --reload --port 8000
 
 
 
